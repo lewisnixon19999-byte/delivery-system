@@ -1,0 +1,9 @@
+#include "deliveryRiders.h"
+#include <iostream>
+
+int main(){
+  DeliveryRider John =  new DeliveryRider("John", 30);
+  John.getMoneyTaken();
+  
+  return 0;
+}

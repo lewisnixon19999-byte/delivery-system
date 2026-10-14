@@ -1,0 +1,14 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Executables / Binaries
+*.exe
+*.out
+*.app
+deliveryOutput
+
+# VS Code local workspace settings
+.vscode/

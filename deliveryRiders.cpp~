@@ -1,0 +1,25 @@
+/*
+  deliveryRiders.cpp
+  Author: Lewis Nixon <ln23aac@herts.ac.uk>
+  Created: 20/11/2025
+  Updated: 27/11/2025
+*/
+
+#include "deliveryRiders.h"
+#include <iostream>
+#include <string>
+
+deliveryRider::deliveryRider (std::string name, int speed)
+{
+  this -> name = name;
+  this -> speed = speed;
+  this -> deliveriesTaken = 0;
+  this -> moneyTaken = 0;
+
+}
+
+int deliveryRider::getMoneyTaken()
+{
+  std::cout << moneyTaken << "\n";
+  return moneyTaken;
+}

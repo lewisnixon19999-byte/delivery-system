@@ -1,0 +1,36 @@
+/*
+  deliveryRiders.h
+  Author: Lewis Nixon <ln23aac@herts.ac.uk>
+  Created: 20/11/2025
+  Updated: 27/11/2025
+*/
+
+#include <string>
+
+class DeliveryRider
+{
+ Private:
+  std::string name;
+  int speed;
+  int deliveriesTaken;
+  double moneyTaken;
+ Public:
+  deliveryRider(std::string name, int speed;);
+  std::string getName();
+  int getSpeed();
+  int getDeliveriesTaken();
+  double getMoneyTaken();
+  void deliver();
+  void addDeliveryTaken();
+  void takeMoney();
+};
+
+
+class BicycleRider : public DeliveryRider
+{
+
+
+
+
+
+};
